@@ -8,20 +8,43 @@
 }
 .container{
     max-width: 600px;
-    background-color: red;
+    
 }
 
 .header__page{
     position:fixed;
+    top:0;
+    left:0;
     width: 100vw;
     height: 100px;
     color:#fff;
     background-color: #999999;
+    text-align: center;
 }
-.header .container{
+.header__page .container{
     display:flex;
-    flex-direction:
+    background-color: red;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__title{
+    width:50vw;
+    text-align: left;
+    margin:30px 0;
+}
+.page__nav{
+    width:50vw;
 }
 .nav__menu{
     background-color: lime;
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+.menu__item{
+    margin-right: 20px;
+}
+.menu__item:last-child{
+    margin-right: 0;
 }
