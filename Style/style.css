@@ -111,3 +111,7 @@
 .footer__items:last-child {
   margin-right: 0;
 }
+.footer__link {
+    text-decoration: none;
+    color: #999999;
+  }
